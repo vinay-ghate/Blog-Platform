@@ -1,0 +1,1 @@
+# Django based platform for craetion and publishing blogs
