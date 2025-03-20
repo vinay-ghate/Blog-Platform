@@ -1,0 +1,14 @@
+{% extends "base.html" %} 
+{% block content %} 
+{% for post in posts %}
+    <ul>
+        <li><p>ID : {{ post.id }} Posted on {{ post.date }}</p>
+          <h2>{{ post.title }}</h2>
+          <p>{{ post.text }}</p>
+        </li>
+        <hr>
+    </ul>
+{% endfor %}
+</html>
+
+{% endblock %}
