@@ -1,0 +1,20 @@
+{% extends "base.html" %} 
+
+{% block content %} 
+<div class="min-h-screen bg-gray-100 flex items-center justify-center">
+    <div class="max-w-2xl w-full p-8 bg-white shadow-lg rounded-2xl">
+        <h1 class="text-4xl font-bold text-gray-800 text-center mb-6">
+            📝 Welcome to the Simple Python Blogging Platform
+        </h1>
+        <p class="text-lg text-gray-600 text-center">
+            Share your thoughts, ideas, and stories with the world. 🚀
+        </p>
+        <a href="/add-post" ">
+                <span class="text-2xl leading-none">➕</span> <!-- Larger icon with perfect vertical alignment -->
+                <span class="text-lg "">Create a New Post</span>
+            </a>
+            
+        </div>
+    </div>
+</div>
+{% endblock %}

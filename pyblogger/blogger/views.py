@@ -6,7 +6,7 @@ import datetime
 # Create your views here.
 
 def index(request):
-    return render(request, 'posts.html')
+    return render(request, 'home.html')
 
 def addPost(request):
     if request.method == 'POST':
